@@ -1,0 +1,37 @@
+#app4{
+    border: 1px solid black;
+   
+}
+@keyframes change {
+    0%{
+        background-color:red;
+    }
+    10%{
+        background-color:orange;
+    }
+    20%{
+        background-color:yellow;
+    }
+    30%{
+        background-color:green;
+    }
+    40%{
+        background-color:blue;
+    }
+}
+#app4 .circle{
+    user-select: none;
+    border: 1px solid red;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    margin-left: 5vw;
+    margin-top: 5vw;
+
+}
+
+
+#app4 .active {
+    animation: change 1s infinite
+    alternate linear;
+}
